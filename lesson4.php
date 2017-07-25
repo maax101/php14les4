@@ -28,7 +28,6 @@ $weather =[
 	['name'=>'Влажность: ', 'status'=>$hum],
 	['name'=>'Ветер: ', 'status'=>$wind],
 ];
-var_dump($weather);
 ?>	
 <html> 
 	<head>  
