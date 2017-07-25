@@ -13,7 +13,7 @@ else {
 	$content = json_decode ($handle,true);
 	file_put_contents($cache, $handle);
 	}	
-}
+
 $city = $content ['name'];
 $icon = $content ['weather'][0]['icon'].'.png';
 $temper = $content ['main']['temp'].' C.';
